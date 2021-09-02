@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #0c2113;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 60px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.7rem;
+  color: #0c2113;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #2a6131;
+  padding: 5px 5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cee0d3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-right {
+  float: right;
+}
+.navbar a {
+  font-size: 15px;
+  display: block;
+  float:left;
+  color: #0c2113;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #aaefc2;
+  color: #0c2113;
+}
+
+.bg-image {
+  background-image: url("Naija-Aviatrix-web/Photo/femalepilots.png");
+  background-position: center;
+  background-size: auto;
+}
+
+.logo-image {
+  width: 10%;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+.sub-heading {
+  margin: 10px auto 10px auto;
+  line-height: 0.5;
+}
+
+p {
+  padding: 15px;
+  font-size: 1.0rem;
+  line-height: 1.5;
+}
+.main-section {
+  margin-top: 30px;
+}
+
+.row {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 10px;
+  background-color: #cee0d3;
+  padding-top: 10px;
+}
+
+.column-one {
+  width: 500px;
+  float: left;
+  text-align: justify;
+}
+
+.column-two {
+  padding: 35px 0 20px;
+  margin-left: 500px;
+}
+
+.hr {
+  border-style: dotted;
+  border-width: medium;
+  border-spacing: 2px;
+  border-color: #85d2a0;
+}
+
+.our-mission {
+  margin: 20px 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.final-section {
+  background-color: #cee0d3;
+}
+
+.footer {
+  padding-top: 40px;
+  background-color: #156130;
+  color: #0c2113;
+}
+
+.button {
+  border: none;
+  background-color: #156130;
+  color: rgb(254, 254, 255);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer-link {
+  font-size: 1.5rem;
+  padding: 4px 50px 0;
+  color: rgb(254, 254, 255);
+}
+
+.copyright {
+  color: #0c2113;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+/* For Ipad size and less */
+@media (max-width: 1000px) {
+  .row {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+  }
+
+  .column-one {
+    padding: 10px;
+    width: 95%;
+    text-align: justify;
+  }
+
+  .column-two {
+    padding: 15px 0 15px;
+    margin-left: auto;
+  }
+}
