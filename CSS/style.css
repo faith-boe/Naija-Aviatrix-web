@@ -137,13 +137,16 @@ p {
   margin: 4px 2px;
   cursor: pointer;
 }
+.button a {
+  text-decoration: none;
+  color: white;
+}
 .contactform{
   font-size: 1.5rem;
   padding: 5px 10px;
   margin: 10px;
   text-align: center;
   line-height: 1.5;
-
 }
 
 .footer-link {
